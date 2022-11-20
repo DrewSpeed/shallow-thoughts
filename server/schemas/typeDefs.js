@@ -11,6 +11,9 @@ type Thought {
 type Query {
         thoughts: [Thought]
     }
+type Query {
+    thoughts(username: String): [Thought]
+}
 `;
 
 module.exports = typeDefs;
