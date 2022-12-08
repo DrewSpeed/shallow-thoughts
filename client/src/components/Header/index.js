@@ -22,13 +22,13 @@ const Header = () => {
                 Logout
               </a>
             </>
-          ): (
+          ) : (
             <>
               <Link to="/login">Login</Link>
               <Link to="/signup">Signup</Link>
             </>
           )}
-        </nav>
+      </nav>
       </div>
     </header>
   );
